@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protection Contre les Attaques de Phishing</title>
+    <!-- Lien vers le CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sécurisez votre vie en ligne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#intro">Qu'est-ce que le phishing ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tips">Astuce de prévention</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recognize">Reconnaître le phishing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#actions">Que faire si vous êtes victime ?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Introduction -->
+    <div class="container mt-5" id="intro">
+        <h1 class="display-4 text-center">⚠️ Protégez-vous contre les attaques de Phishing ⚠️</h1>
+        <p class="lead text-center">Le phishing est l'une des formes de fraude en ligne les plus courantes. Soyez vigilant et
+            protégez vos données personnelles !</p>
+        <hr>
+        <h2>Qu'est-ce que le Phishing ?</h2>
+        <p>Le phishing est une technique utilisée par des cybercriminels pour duper les victimes en leur faisant croire
+            qu'elles sont en train de communiquer avec une source légitime (banques, institutions gouvernementales, etc.).
+            Ils utilisent des emails, messages textes ou faux sites web pour collecter des informations personnelles telles
+            que les mots de passe, numéros de carte bancaire, ou autres informations sensibles.</p>
+        <p><strong>Exemple typique :</strong> Vous recevez un email prétendant provenir de votre banque, vous demandant de
+            "mettre à jour vos informations" via un lien. Si vous cliquez sur ce lien et entrez vos informations, celles-ci
+            sont envoyées directement aux fraudeurs.</p>
+    </div>
+
+    <!-- Astuces de prévention -->
+    <div class="container mt-5" id="tips">
+        <h2 class="display-5 text-center">🛡️ Astuces pour éviter le phishing</h2>
+        <p class="text-center">Voici quelques conseils essentiels pour vous protéger contre le phishing et sécuriser vos
+            données.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">1. Vérifiez toujours l'adresse URL</h5>
+                        <p class="card-text">Assurez-vous que l'URL commence bien par <code>https://</code> et que le domaine est
+                            correct. Les attaques de phishing utilisent souvent des URL similaires à des sites officiels mais
+                            avec des erreurs subtiles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">2. Ne cliquez jamais sur des liens suspects</h5>
+                        <p class="card-text">Ne cliquez jamais sur des liens dans des emails, SMS ou messages privés de sources
+                            inconnues. Si l'email semble urgent, contactez directement l'organisation via leur site officiel.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">3. Activez l'authentification à deux facteurs (2FA)</h5>
+                        <p class="card-text">Cela ajoutera une couche supplémentaire de sécurité à vos comptes en ligne. Même si
+                            quelqu'un obtient votre mot de passe, il ne pourra pas accéder à vos comptes sans le deuxième
+                            facteur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">4. Gardez vos logiciels à jour</h5>
+                        <p class="card-text">Mettez régulièrement à jour votre système d'exploitation, vos applications et vos
+                            logiciels antivirus pour éviter les failles de sécurité utilisées par les attaquants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comment reconnaître un phishing -->
+    <div class="container mt-5" id="recognize">
+        <h2 class="display-5 text-center">💡 Comment reconnaître un phishing ?</h2>
+        <p class="text-center">Soyez attentif à certains indices qui peuvent indiquer qu'un message ou un site est une tentative
+            de phishing.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">1. Vérifiez l'expéditeur</h5>
+                        <p class="card-text">Les emails de phishing proviennent souvent d'adresses ressemblant à des sources
+                            légitimes, mais avec de petites erreurs. Si vous avez un doute, contactez directement l'entreprise
+                            concernée.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">2. Un message trop urgent</h5>
+                        <p class="card-text">Les emails de phishing vous inciteront souvent à agir rapidement en cas de "problème"
+                            avec votre compte ou un "gagnant potentiel". Méfiez-vous des messages qui vous pressent d'agir.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">3. Pièces jointes ou liens suspects</h5>
+                        <p class="card-text">Les emails de phishing contiennent fréquemment des pièces jointes ou des liens qui
+                            mènent vers des sites frauduleux. N'ouvrez jamais de fichiers joints provenant d'inconnus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">4. Messages impersonnels</h5>
+                        <p class="card-text">Les vrais services bancaires ou entreprises vous appelleront par votre nom. Les
+                            messages impersonnels comme "Cher utilisateur" sont souvent un signe de phishing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Que faire si vous êtes victime ? -->
+    <div class="container mt-5" id="actions">
+        <h2 class="display-5 text-center">📝 Que faire si vous êtes victime d'une attaque de phishing ?</h2>
+        <p class="text-center">Si vous avez cliqué sur un lien de phishing ou fourni vos informations sensibles, il est
+            important d'agir rapidement.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">1. Changez immédiatement vos mots de passe</h5>
+                        <p class="card-text">Si vous avez fourni un mot de passe, changez-le immédiatement, surtout si vous utilisez
+                            le même mot de passe pour plusieurs comptes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">2. Signalez l'incident</h5>
+                        <p class="card-text">Signalez l'incident à l'entreprise concernée (banque, fournisseur de services, etc.).
+                            Cela peut les aider à prévenir d'autres attaques.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">3. Surveillez vos comptes bancaires</h5>
+                        <p class="card-text">Vérifiez régulièrement vos relevés bancaires pour repérer toute activité suspecte.
+                            Informez votre banque en cas de transactions non autorisées.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>© 2024 Sécurisez votre vie en ligne - Tous droits réservés</p>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
